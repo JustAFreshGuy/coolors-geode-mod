@@ -1,0 +1,16 @@
+{
+	"geode": "5.7.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "justafreshguy.coolorsextension",
+	"name": "Coolors extension",
+	"version": "1.0.0",
+	"developer": "JustAFreshGuy",
+	"description": "Coolors have different palletes, but dont type the hax codes one by one. With this mod you can export a Coolors URL into Geometry Dash!"
+
+	
+}
