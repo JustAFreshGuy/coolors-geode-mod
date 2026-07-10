@@ -2,11 +2,9 @@ cmake_minimum_required(VERSION 3.25)
 
 project(coolors_geode_mod VERSION 1.0.0 LANGUAGES CXX)
 
-# Търси Geode SDK, което GitHub Action автоматично ще инсталира на сървъра
-find_package(Geode REQUIRED)
+# Търсене на пакета с малки букви, както се изисква в Geode v3
+find_package(geode REQUIRED)
 
-# Настройка на мода
 setup_geode_mod(coolors_geode_mod)
 
-# Описва къде се намира основният C++ файл
 target_sources(coolors_geode_mod PRIVATE src/main.cpp)
