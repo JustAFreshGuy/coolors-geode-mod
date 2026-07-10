@@ -27,7 +27,7 @@ jobs:
 
       # Този компонент задължително трябва да е тук, за да инсталира "GeodeConfig.cmake"
       - name: Build Mod
-        uses: geode-sdk/build-geode-mod@v3
+        uses: geode-sdk/build-geode-mod@main
         with:
           target: ${{ matrix.config.target }}
           combine: true
